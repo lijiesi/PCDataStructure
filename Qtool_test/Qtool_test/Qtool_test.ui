@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Qtool_testClass</class>
+ <widget class="QMainWindow" name="Qtool_testClass">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>600</width>
+    <height>400</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Qtool_test</string>
+  </property>
+  <property name="iconSize">
+   <size>
+    <width>48</width>
+    <height>48</height>
+   </size>
+  </property>
+  <property name="toolButtonStyle">
+   <enum>Qt::ToolButtonTextBesideIcon</enum>
+  </property>
+  <property name="animated">
+   <bool>true</bool>
+  </property>
+  <widget class="QWidget" name="centralWidget">
+   <widget class="QToolButton" name="ok_tool">
+    <property name="enabled">
+     <bool>true</bool>
+    </property>
+    <property name="geometry">
+     <rect>
+      <x>200</x>
+      <y>40</y>
+      <width>111</width>
+      <height>71</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>帮助</string>
+    </property>
+    <property name="icon">
+     <iconset resource="Qtool_test.qrc">
+      <normaloff>:/image/Resources/help_48px_36121_easyicon.net.png</normaloff>:/image/Resources/help_48px_36121_easyicon.net.png</iconset>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>48</width>
+      <height>48</height>
+     </size>
+    </property>
+    <property name="checkable">
+     <bool>true</bool>
+    </property>
+    <property name="toolButtonStyle">
+     <enum>Qt::ToolButtonTextUnderIcon</enum>
+    </property>
+    <property name="autoRaise">
+     <bool>false</bool>
+    </property>
+    <property name="arrowType">
+     <enum>Qt::NoArrow</enum>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menuBar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>600</width>
+     <height>23</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QToolBar" name="mainToolBar">
+   <attribute name="toolBarArea">
+    <enum>TopToolBarArea</enum>
+   </attribute>
+   <attribute name="toolBarBreak">
+    <bool>false</bool>
+   </attribute>
+  </widget>
+  <widget class="QStatusBar" name="statusBar"/>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources>
+  <include location="Qtool_test.qrc"/>
+ </resources>
+ <connections/>
+</ui>

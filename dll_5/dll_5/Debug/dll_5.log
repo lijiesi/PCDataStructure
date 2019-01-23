@@ -1,0 +1,15 @@
+﻿生成启动时间为 2018/12/1 15:49:05。
+     1>项目“E:\vs代码\dll_5\dll_5\dll_5.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         D:\vs\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt mydll.cpp
+         mydll.cpp
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(1361,5): warning MSB8012: TargetPath(E:\vs代码\dll_5\Debug\dll_5.lib) does not match the Library's OutputFile property value (E:\vs代码\dll_5\dll_5\my.lib). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Lib.OutputFile).
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(1363,5): warning MSB8012: TargetName(dll_5) does not match the Library's OutputFile property value (my). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Lib.OutputFile).
+       Lib:
+         D:\vs\VC\bin\Lib.exe /OUT:"my.lib" /NOLOGO Debug\mydll.obj
+         dll_5.vcxproj -> E:\vs代码\dll_5\Debug\dll_5.lib
+     1>已完成生成项目“E:\vs代码\dll_5\dll_5\dll_5.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:00.51

@@ -1,0 +1,20 @@
+﻿生成启动时间为 2019/1/3 11:17:01。
+     1>项目“E:\vs代码\gui_test\gui_test\gui_test.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         D:\vs\VC\bin\x86_amd64\CL.exe /c /I.\GeneratedFiles /I. /ID:\qt\5.3\msvc2013_64_opengl\include /I.\GeneratedFiles\Debug /ID:\qt\5.3\msvc2013_64_opengl\include\QtCore /ID:\qt\5.3\msvc2013_64_opengl\include\QtGui /ID:\qt\5.3\msvc2013_64_opengl\include\QtWidgets /Zi /nologo /W1 /WX- /Od /D UNICODE /D WIN32 /D WIN64 /D QT_DLL /D QT_CORE_LIB /D QT_GUI_LIB /D QT_WIDGETS_LIB /Gm- /EHsc /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"x64\Debug\\" /Fd"x64\Debug\vc120.pdb" /Gd /TP /errorReport:prompt gui_test.cpp
+         gui_test.cpp
+       Link:
+         D:\vs\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"E:\vs代码\gui_test\x64\Debug\\gui_test.exe" /NOLOGO /LIBPATH:D:\qt\5.3\msvc2013_64_opengl\lib qtmaind.lib Qt5Cored.lib Qt5Guid.lib Qt5Widgetsd.lib libeng.lib libmx.lib libmat.lib libmex.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:\vs代码\gui_test\x64\Debug\gui_test.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\vs代码\gui_test\x64\Debug\gui_test.lib" /MACHINE:X64 x64\Debug\gui_test.res
+         x64\Debug\moc_gui_test.obj
+         x64\Debug\moc_MyWin.obj
+         x64\Debug\qrc_gui_test.obj
+         x64\Debug\gui_test.obj
+         x64\Debug\main.obj
+         x64\Debug\MyWin.obj
+         x64\Debug\output_coding.obj
+         gui_test.vcxproj -> E:\vs代码\gui_test\x64\Debug\gui_test.exe
+     1>已完成生成项目“E:\vs代码\gui_test\gui_test\gui_test.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:04.63

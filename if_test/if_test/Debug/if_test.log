@@ -1,0 +1,20 @@
+﻿生成启动时间为 2018/11/30 15:37:58。
+     1>项目“E:\vs代码\if_test\if_test\if_test.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         D:\vs\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _USRDLL /D IF_TEST_EXPORTS /D _WINDLL /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt mydll.cpp
+         mydll.cpp
+     1>e:\vs代码\if_test\if_test\mydll.cpp(4): warning C4273: “add”: dll 链接不一致
+                 e:\vs代码\if_test\if_test\mydll.h(7) : 参见“add”的前一个定义
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(1193,5): warning MSB8012: TargetPath(E:\vs代码\if_test\Debug\if_test.dll) does not match the Linker's OutputFile property value (E:\vs代码\if_test\if_test\my.dll). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(1195,5): warning MSB8012: TargetName(if_test) does not match the Linker's OutputFile property value (my). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+       Link:
+         D:\vs\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"my.dll" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:\vs代码\if_test\Debug\if_test.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"my.lib" /MACHINE:X86 /DLL Debug\dllmain.obj
+         Debug\if_test.obj
+         Debug\mydll.obj
+         Debug\stdafx.obj
+         if_test.vcxproj -> E:\vs代码\if_test\Debug\if_test.dll
+     1>已完成生成项目“E:\vs代码\if_test\if_test\if_test.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:00.49

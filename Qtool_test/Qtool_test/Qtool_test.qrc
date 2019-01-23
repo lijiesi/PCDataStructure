@@ -1,0 +1,5 @@
+<RCC>
+  <qresource prefix="image">
+    <file>Resources/help_48px_36121_easyicon.net.png</file>
+  </qresource>
+</RCC>

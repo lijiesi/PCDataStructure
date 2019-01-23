@@ -1,0 +1,18 @@
+﻿生成启动时间为 2018/12/9 13:53:47。
+     1>项目“E:\vs代码\test7_1\test7_1\test7_1.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         D:\vs\VC\bin\x86_amd64\CL.exe /c /I.\GeneratedFiles /I. /ID:\qt\5.3\msvc2013_64_opengl\include /I.\GeneratedFiles\Debug /ID:\qt\5.3\msvc2013_64_opengl\include\QtCore /ID:\qt\5.3\msvc2013_64_opengl\include\QtGui /ID:\qt\5.3\msvc2013_64_opengl\include\QtWidgets /Zi /nologo /W1 /WX- /Od /D UNICODE /D WIN32 /D WIN64 /D QT_DLL /D QT_CORE_LIB /D QT_GUI_LIB /D QT_WIDGETS_LIB /Gm- /EHsc /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"x64\Debug\\" /Fd"x64\Debug\vc120.pdb" /Gd /TP /errorReport:prompt mydialog.cpp
+         mydialog.cpp
+       Link:
+         D:\vs\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"E:\vs代码\test7_1\x64\Debug\\test7_1.exe" /NOLOGO /LIBPATH:D:\qt\5.3\msvc2013_64_opengl\lib qtmaind.lib Qt5Cored.lib Qt5Guid.lib Qt5Widgetsd.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:\vs代码\test7_1\x64\Debug\test7_1.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\vs代码\test7_1\x64\Debug\test7_1.lib" /MACHINE:X64 x64\Debug\moc_mydialog.obj
+         x64\Debug\moc_test7_1.obj
+         x64\Debug\qrc_test7_1.obj
+         x64\Debug\main.obj
+         x64\Debug\mydialog.obj
+         x64\Debug\test7_1.obj
+         test7_1.vcxproj -> E:\vs代码\test7_1\x64\Debug\test7_1.exe
+     1>已完成生成项目“E:\vs代码\test7_1\test7_1\test7_1.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:01.05

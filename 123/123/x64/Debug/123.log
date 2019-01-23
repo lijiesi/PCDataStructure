@@ -1,0 +1,10 @@
+﻿生成启动时间为 2018/11/27 14:42:42。
+     1>项目“E:\vs代码\123\123\123.vcxproj”在节点 2 上(Build 个目标)。
+     1>Link:
+         D:\vs\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"E:\vs代码\123\x64\Debug\123.exe" /INCREMENTAL /NOLOGO libeng.lib libmat.lib libmex.lib libmx.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:\vs代码\123\x64\Debug\123.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\vs代码\123\x64\Debug\123.lib" /MACHINE:X64 x64\Debug\123.obj
+         123.vcxproj -> E:\vs代码\123\x64\Debug\123.exe
+     1>已完成生成项目“E:\vs代码\123\123\123.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:00.32

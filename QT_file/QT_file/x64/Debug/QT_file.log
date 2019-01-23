@@ -1,0 +1,13 @@
+﻿生成启动时间为 2018/12/10 17:27:27。
+     1>项目“E:\vs代码\QT_file\QT_file\QT_file.vcxproj”在节点 2 上(Build 个目标)。
+     1>Link:
+         D:\vs\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"E:\vs代码\QT_file\x64\Debug\\QT_file.exe" /NOLOGO /LIBPATH:D:\qt\5.3\msvc2013_64_opengl\lib qtmaind.lib Qt5Cored.lib Qt5Guid.lib Qt5Widgetsd.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:\vs代码\QT_file\x64\Debug\QT_file.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\vs代码\QT_file\x64\Debug\QT_file.lib" /MACHINE:X64 x64\Debug\moc_QT_file.obj
+         x64\Debug\qrc_QT_file.obj
+         x64\Debug\main.obj
+         x64\Debug\QT_file.obj
+         QT_file.vcxproj -> E:\vs代码\QT_file\x64\Debug\QT_file.exe
+     1>已完成生成项目“E:\vs代码\QT_file\QT_file\QT_file.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:00.25
